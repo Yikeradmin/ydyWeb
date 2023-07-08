@@ -42006,7 +42006,7 @@ l=new A.aV(m,A.k(m).i("aV<1>")).hf(0,new A.ak5(q),new A.ak6())
 m=t.z
 p=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","/group/selectGroupData",null),A.a6(["user_id",B.e.j(q.x),"rec_endDate",q.z,"rec_startDate",q.y,"reg_startDate",q.r,"reg_endDate",q.w,"group_id",B.e.j(l)],m,m),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$fZ)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","/group/selectGroupData",null),A.a6(["user_id",B.e.j(q.x),"rec_endDate",q.z,"rec_startDate",q.y,"reg_startDate",q.r,"reg_endDate",q.w,"group_id",B.e.j(l)],m,m),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$fZ)
 case 2:o=c
 p=o.b
 m=""+p
@@ -42030,7 +42030,7 @@ this.dS()},
 dS(){var s=0,r=A.Z(t.z),q=this,p
 var $async$dS=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getgroupmap",null)),$async$dS)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getgroupmap",null)),$async$dS)
 case 2:p=b
 if(p.b===200)q.O(new A.ak4(q,A.e_(B.W.fb(0,A.eO(A.eN(p.e).c.a.h(0,"charset")).cg(0,p.w),null),!0,t.P)))
 return A.X(null,r)}})
@@ -42238,7 +42238,7 @@ Ts(a,b,c){var s=0,r=A.Z(t.H),q=this,p,o,n
 var $async$nB=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:o=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","group/selectAllGroup",null),A.a6(["group_name",b,"guild_name",c],o,o),A.a6(["Content-Type","application/x-www-form-urlencoded"],o,o)),$async$nB)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","group/selectAllGroup",null),A.a6(["group_name",b,"guild_name",c],o,o),A.a6(["Content-Type","application/x-www-form-urlencoded"],o,o)),$async$nB)
 case 2:n=e
 o=n.b
 if(o===200){p=A.e_(J.aZ(B.W.fb(0,A.eO(A.eN(n.e).c.a.h(0,"charset")).cg(0,n.w),null),"data"),!0,t.P)
@@ -42250,7 +42250,7 @@ return A.Y($async$nB,r)},
 eg(){var s=0,r=A.Z(t.z),q=this,p
 var $async$eg=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getguildmap",null)),$async$eg)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getguildmap",null)),$async$eg)
 case 2:p=b
 if(p.b===200)q.O(new A.aku(q,p))
 return A.X(null,r)}})
@@ -42277,14 +42277,14 @@ Th(a,b,c){var s=0,r=A.Z(t.H),q=this,p
 var $async$u5=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","group/addGroup",null),B.W.lw(A.a6(["group_name",b,"group_status",c,"guild_name",a],p,p),null),A.a6(["Content-Type","application/json"],p,p)),$async$u5)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","group/addGroup",null),B.W.lw(A.a6(["group_name",b,"group_status",c,"guild_name",a],p,p),null),A.a6(["Content-Type","application/json"],p,p)),$async$u5)
 case 2:if(e.b===200)q.c4("\u6dfb\u52a0\u6210\u529f")
 return A.X(null,r)}})
 return A.Y($async$u5,r)},
 yK(a,b,c){return this.aiX(a,b,c)},
 aiX(a,b,c){var s=0,r=A.Z(t.H),q=this,p,o,n,m
 var $async$yK=A.a_(function(d,e){if(d===1)return A.W(e,r)
-while(true)switch(s){case 0:o=A.cX("http","49.234.18.25:8081","group/updateGroupById",null)
+while(true)switch(s){case 0:o=A.cX("http","10.0.4.15:8081","group/updateGroupById",null)
 n=q.x
 m=new A.aV(n,A.k(n).i("aV<1>")).hf(0,new A.akQ(q),new A.akR())
 n=t.N
@@ -42472,7 +42472,7 @@ abf(a,b,c){var s=0,r=A.Z(t.z),q=this,p
 var $async$wa=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","guild/addGuild",null),A.a6(["account",b,"guild_name",a,"password",c],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$wa)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","guild/addGuild",null),A.a6(["account",b,"guild_name",a,"password",c],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$wa)
 case 2:p=e.b
 if(p===200)q.c4("\u6dfb\u52a0\u6210\u529f")
 else q.c4("\u6dfb\u52a0\u5931\u8d25:(\u9519\u8bef\u7801\uff1a"+p+")")
@@ -42483,7 +42483,7 @@ Tr(a,b){var s=0,r=A.Z(t.H),q=this,p,o,n
 var $async$u9=A.a_(function(c,d){if(c===1)return A.W(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","guild/selectAllGroupByName",null),A.a6(["guild_name",b],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$u9)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","guild/selectAllGroupByName",null),A.a6(["guild_name",b],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$u9)
 case 2:o=d
 n=A.e_(J.aZ(B.W.fb(0,A.eO(A.eN(o.e).c.a.h(0,"charset")).cg(0,o.w),null),"data"),!0,t.P)
 A.bb("\u8fd4\u56de\u7684\u6570\u636e"+A.h(n))
@@ -42500,7 +42500,7 @@ aiS(a,b){var s=0,r=A.Z(t.H),q=this,p
 var $async$yI=A.a_(function(c,d){if(c===1)return A.W(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","guild/changePassword",null),A.a6(["guild_id",a,"password",b],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$yI)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","guild/changePassword",null),A.a6(["guild_id",a,"password",b],p,p),A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$yI)
 case 2:p=d.b
 if(p===200)q.c4("\u4fee\u6539\u6210\u529f")
 else q.c4("\u4fee\u6539\u5931\u8d25:(\u9519\u8bef\u7801\uff1a"+p+")")
@@ -42623,7 +42623,7 @@ return r},
 eg(){var s=0,r=A.Z(t.z),q=this,p
 var $async$eg=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getguildmap",null)),$async$eg)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getguildmap",null)),$async$eg)
 case 2:p=b
 if(p.b===200)q.O(new A.ami(q,p))
 return A.X(null,r)}})
@@ -42631,7 +42631,7 @@ return A.Y($async$eg,r)},
 dS(){var s=0,r=A.Z(t.z),q=this,p
 var $async$dS=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getgroupmap",null)),$async$dS)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getgroupmap",null)),$async$dS)
 case 2:p=b
 if(p.b===200)q.O(new A.amg(q,q.nv(p)))
 return A.X(null,r)}})
@@ -42639,7 +42639,7 @@ return A.Y($async$dS,r)},
 nv(a){return A.e_(B.W.fb(0,A.eO(A.eN(a.e).c.a.h(0,"charset")).cg(0,a.w),null),!0,t.P)},
 fZ(a){var s=0,r=A.Z(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$fZ=A.a_(function(b,c){if(b===1)return A.W(c,r)
-while(true)switch(s){case 0:k=A.cX("http","49.234.18.25:8081","get_invitation_message",null)
+while(true)switch(s){case 0:k=A.cX("http","10.0.4.15:8081","get_invitation_message",null)
 j=q.ay
 i=new A.aV(j,A.k(j).i("aV<1>")).hf(0,new A.amj(q),new A.amk())
 j=q.ch
@@ -42686,7 +42686,7 @@ l=A.a6(["inviteCode",a,"accountId","%"+q.cx+"%","startDate",q.at,"endDate",q.ax]
 A.bb("\u67e5\u8be2\u7528\u6237\u53c2\u6570\uff1a==========================="+l.j(0))
 p=B.W.lw(l,null)
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","getAllUserAmountMessage",null),p,A.a6(["Content-Type","application/json"],m,m)),$async$ul)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","getAllUserAmountMessage",null),p,A.a6(["Content-Type","application/json"],m,m)),$async$ul)
 case 2:o=c
 if(o.b===200){n=q.nv(o)
 q.cy=A.a([],t.o)
@@ -42699,7 +42699,7 @@ while(true)switch(s){case 0:p=t.N
 o=A.a6(["group_id",B.e.j(a),"recharge_visible",b,"user_id",B.e.j(c)],p,p)
 A.bb("\u8bf7\u6c42\u53c2\u6570\uff1a"+o.j(0))
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","inviteUser/updateUser",null),o,A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$yN)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","inviteUser/updateUser",null),o,A.a6(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$yN)
 case 2:p=e.b
 if(p===200)q.c4("\u4fee\u6539\u6210\u529f")
 else q.c4("\u4fee\u6539\u5931\u8d25(\u9519\u8bef\u7801:"+p+")")
@@ -42999,7 +42999,7 @@ A.SG.prototype={
 fZ(a){var s=0,r=A.Z(t.z),q=this,p,o,n,m,l,k,j
 var $async$fZ=A.a_(function(b,c){if(b===1)return A.W(c,r)
 while(true)switch(s){case 0:A.bb("\u5f00\u59cb\u67e5\u8be2")
-p=A.cX("http","49.234.18.25:8081","inviteCode/selectInvitationUserInfo",null)
+p=A.cX("http","10.0.4.15:8081","inviteCode/selectInvitationUserInfo",null)
 o=t.z
 n=A.a6(["user_id",q.z],o,o)
 A.bb("\u8bf7\u6c42\u6570\u636e\uff1a\u7528\u6237ID\uff1a"+q.z)
@@ -43032,7 +43032,7 @@ return A.mU(q,A.eF(A.a([p,o,n,B.aK,A.al(r,A.o9(B.MF,r,A.aq(new A.ad(m,new A.alw(
 dS(){var s=0,r=A.Z(t.z),q=this,p
 var $async$dS=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getgroupmap",null)),$async$dS)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getgroupmap",null)),$async$dS)
 case 2:p=b
 if(p.b===200)q.O(new A.aly(q,A.e_(B.W.fb(0,A.eO(A.eN(p.e).c.a.h(0,"charset")).cg(0,p.w),null),!0,t.P)))
 return A.X(null,r)}})
@@ -43058,7 +43058,7 @@ return A.Y($async$xc,r)},
 tZ(){var s=0,r=A.Z(t.H),q=this,p,o,n,m
 var $async$tZ=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","inviteCode/getInvitationValue",null)),$async$tZ)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","inviteCode/getInvitationValue",null)),$async$tZ)
 case 2:m=b
 if(m.b===200){p=m.e
 o=A.eO(A.eN(p).c.a.h(0,"charset"))
@@ -43073,7 +43073,7 @@ while(true)switch(s){case 0:o=t.N
 n=A.a6(["invitation_value",b,"group_id",a,"skip_status",c,"skip_user_id",B.e.j(d),"user_id",B.e.j(e)],o,o)
 A.bb("\u8bf7\u6c42\u7684\u6570\u636e:------\u9080\u8bf7\u7801:"+b+"----------------\u8df3\u8f6c\u72b6\u6001:"+c+"--------\u8df3\u8f6c\u623f\u95f4ID:"+d+"-----------\u63a8\u5e7f\u7528\u6237id:"+e)
 s=2
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","inviteCode/addInvitationInfo",null),n,A.a6(["Content-Type","application/x-www-form-urlencoded"],o,o)),$async$u6)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","inviteCode/addInvitationInfo",null),n,A.a6(["Content-Type","application/x-www-form-urlencoded"],o,o)),$async$u6)
 case 2:p=g
 o=p.b
 if(o===200)q.c4("\u4fdd\u5b58\u6210\u529f")
@@ -43086,7 +43086,7 @@ var $async$yL=A.a_(function(h,i){if(h===1)return A.W(i,r)
 while(true)switch(s){case 0:m=t.N
 l=A.a6(["group_name",a,"invitation_url",b,"invitation_value",c,"skip_status",d,"skip_user_id",e,"user_id",f,"user_name",g],m,t.z)
 A.bb("\u8bf7\u6c42\u7684\u6570\u636e:-----\u5206\u7ec4\u540d\u79f0:"+a+"--------\u9080\u8bf7\u94fe\u63a5:"+b+"------\u9080\u8bf7\u7801:"+c+"----------------\u8df3\u8f6c\u72b6\u6001:"+d+"--------\u8df3\u8f6c\u623f\u95f4ID:"+e+"-----------\u63a8\u5e7f\u7528\u6237\u540d\u79f0:"+A.h(g))
-p=A.cX("http","49.234.18.25:8081","inviteCode/updateInvitationUserInfo",null)
+p=A.cX("http","10.0.4.15:8081","inviteCode/updateInvitationUserInfo",null)
 o=B.W.lw(l,null)
 A.bb("json\u6570\u636e:"+o)
 s=2
@@ -43103,7 +43103,7 @@ var $async$u7=A.a_(function(h,i){if(h===1)return A.W(i,r)
 while(true)switch(s){case 0:m=t.N
 l=A.a6(["activation_device_data",a,"group_id",b,"guild_id",c,"recharge_visible",d,"user_id",e,"user_name",f,"user_status",g],m,t.K)
 A.bb("\u8bf7\u6c42\u7684\u6570\u636e:"+l.j(0))
-p=A.cX("http","49.234.18.25:8081","inviteUser/addPromoteUser",null)
+p=A.cX("http","10.0.4.15:8081","inviteUser/addPromoteUser",null)
 o=B.W.lw(l,null)
 A.bb("json\u6570\u636e:"+o)
 s=2
@@ -43316,7 +43316,7 @@ ago(a,b,c){var s=0,r=A.Z(t.z),q,p,o,n
 var $async$xL=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.a7(A.fd(A.cX("http","49.234.18.25:8081","guild/loginGuild",null),B.W.lw(A.a6(["account",b,"guild_id",0,"guild_name",a,"password",c],p,t.K),null),A.a6(["Content-Type","application/json"],p,p)),$async$xL)
+return A.a7(A.fd(A.cX("http","10.0.4.15:8081","guild/loginGuild",null),B.W.lw(A.a6(["account",b,"guild_id",0,"guild_name",a,"password",c],p,t.K),null),A.a6(["Content-Type","application/json"],p,p)),$async$xL)
 case 3:o=e
 n=B.W.fb(0,A.eO(A.eN(o.e).c.a.h(0,"charset")).cg(0,o.w),null)
 p=o.b
@@ -43381,7 +43381,7 @@ return r},
 eg(){var s=0,r=A.Z(t.z),q=this,p
 var $async$eg=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getguildmap",null)),$async$eg)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getguildmap",null)),$async$eg)
 case 2:p=b
 if(p.b===200)q.O(new A.aqA(q,p))
 return A.X(null,r)}})
@@ -43402,7 +43402,7 @@ ua(a,b,c,d,e){return this.Tt(0,b,c,d,e)},
 Tt(a,b,c,d,e){var s=0,r=A.Z(t.H),q=this,p,o,n,m,l
 var $async$ua=A.a_(function(f,g){if(f===1)return A.W(g,r)
 while(true)switch(s){case 0:A.bb("\u5f00\u59cb\u67e5\u8be2")
-p=A.cX("http","49.234.18.25:8081","userConsume/selectAllUser",null)
+p=A.cX("http","10.0.4.15:8081","userConsume/selectAllUser",null)
 o=t.z
 n=c==="-1"?A.a6(["guild_id",b,"startDate",d,"endDate",e],o,o):A.a6(["guild_id",b,"user_id",c,"startDate",d,"endDate",e],o,o)
 A.bb("\u8bf7\u6c42\u6570\u636e\uff1a"+n.j(0))
@@ -43598,7 +43598,7 @@ kj(a,b){A.dt(B.u,!0,null,new A.ar7(b),a,null,!0,!0,t.z)},
 uc(a,b,c,d,e,f,g){return this.Tu(0,b,c,d,e,f,g)},
 Tu(a,b,c,d,e,f,g){var s=0,r=A.Z(t.z),q=this,p,o,n,m,l,k
 var $async$uc=A.a_(function(h,i){if(h===1)return A.W(i,r)
-while(true)switch(s){case 0:m=A.cX("http","49.234.18.25:8081","userConsume/selectUserAffiliation",null)
+while(true)switch(s){case 0:m=A.cX("http","10.0.4.15:8081","userConsume/selectUserAffiliation",null)
 l=t.z
 k=A.a6(["guild_id",b,"user_id",c,"group_id",d,"user_account_id",g,"startDate",e,"endDate",f],l,l)
 A.bb("\u8bf7\u6c42\u6570\u636e\uff1a\u516c\u4f1aID\uff1a"+b+"---------\u5206\u7ec4ID\uff1a"+d+"---\u7528\u6237ID\uff1a"+c+"------\u63a8\u5e7f\u7528\u6237ID\uff1a"+g+"-----\u5f00\u59cb\u65f6\u95f4\uff1a"+e+"-----\u7ed3\u675f\u65f6\u95f4\uff1a"+f)
@@ -43625,7 +43625,7 @@ this.dS()},
 eg(){var s=0,r=A.Z(t.z),q=this,p
 var $async$eg=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getguildmap",null)),$async$eg)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getguildmap",null)),$async$eg)
 case 2:p=b
 if(p.b===200)q.O(new A.ar4(q,p))
 return A.X(null,r)}})
@@ -43636,7 +43636,7 @@ return s.gdg(s).ed(0,new A.ar3(),t.Q).cX(0)},
 dS(){var s=0,r=A.Z(t.z),q=this,p
 var $async$dS=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a7(A.lM(A.cX("http","49.234.18.25:8081","getgroupmap",null)),$async$dS)
+return A.a7(A.lM(A.cX("http","10.0.4.15:8081","getgroupmap",null)),$async$dS)
 case 2:p=b
 if(p.b===200)q.O(new A.ar2(q,q.nv(p)))
 return A.X(null,r)}})
